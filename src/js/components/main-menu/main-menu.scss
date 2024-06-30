@@ -1,0 +1,50 @@
+@import "../../../css/mixins";
+#main-menu {
+  background-color: $base-color;
+  color: $base-contrast-text;
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  padding-bottom: 1rem;
+
+  nav {
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      flex-flow: row nowrap;
+      font-size: clamp(.8rem, 1.2vw, 1.1rem);
+      align-items: center;
+
+      li {
+        margin: 0 0.2rem;
+        a {
+          padding: .4rem 1.5rem;
+          transition: background-color .2s ease-in-out;
+          border-radius: $sm-radius;
+        }
+      }
+
+      li:hover {
+        a {
+          background-color: rgba($base-contrast-text, .05);
+        }
+      }
+
+      li.active {
+        color: $base-contrast-text;
+        background-color: rgba($base-contrast-text, .1);
+        padding: .4rem 1.5rem;
+        border-radius: $sm-radius;
+        cursor: default;
+      }
+    }
+  }
+
+  a, a:visited {
+    color: darken($base-contrast-text, 10);
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+
+    <title>Insane Builder</title>
+    <link href="assets/favicon.png"
+          rel="shortcut icon"
+          type="image/png"/>
+
+    <link href="assets/manifest.json"
+          rel="manifest"/>
+
+    <link href="css/styles.scss" rel="stylesheet"/>
+    <style>
+        #fake-main-menu {
+            width: 100%;
+            min-height: 160px;
+            height: 160px;
+            z-index: 1;
+            background-color: #0078b8;
+            display: flex;
+            padding-bottom: 1rem;
+            color: #269edd;
+            flex-flow: column wrap;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="fake-main-menu">Loading...</div>
+    <div id="main-menu"></div>
+    <div id="app"></div>
+
+    <h2>JPEG</h2>
+    <img alt="just to check JPEG image processing" src="assets/cat.jpeg">
+
+    <h2>PNG</h2>
+    <img alt="just to check PNG image processing" src="assets/gears.png">
+
+    <h2>SVG</h2>
+    <img alt="just to check SVG image processing" src="assets/front.svg">
+
+    <script async src="js/main.tsx"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+$base-color: #0078b8;
+$base-text: #333;
+$base-contrast-text: #fff;
+$standard-radius: clamp(8px, 3vw, 32px);
+$sm-radius: clamp(2px, 3vw, 6px);
+$standard-shadow: 0 8px 16px rgba($base-color, 0.3), 0 -2px 6px rgba($base-color, 0.07), 0 0 0 clamp(2px, 2vw, 16px) rgba($base-color, 0.2);
