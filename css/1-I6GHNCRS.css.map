@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/1.css"],
+  "sourcesContent": ["\n        #fake-main-menu {\n            width: 100%;\n            min-height: 160px;\n            height: 160px;\n            z-index: 1;\n            background-color: #0078b8;\n            display: flex;\n            padding-bottom: 1rem;\n            color: #269edd;\n            flex-flow: column wrap;\n            align-items: center;\n            justify-content: center;\n        }\n    "],
+  "mappings": "AACQ,CAAC,eACG,MAAO,KACP,WAAY,MACZ,OAAQ,MACR,QAAS,EACT,iBAAkB,QAClB,QAAS,KACT,eAAgB,KAChB,MAAO,QACP,UAAW,OAAO,KAClB,YAAa,OACb,gBAAiB,MACrB",
+  "names": []
+}

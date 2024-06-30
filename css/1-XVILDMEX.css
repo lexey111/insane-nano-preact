@@ -1,0 +1,14 @@
+/* src/1.css */
+#fake-main-menu {
+  width: 100%;
+  min-height: 160px;
+  height: 160px;
+  z-index: 1;
+  background-color: #0078b8;
+  display: flex;
+  padding-bottom: 1rem;
+  color: #269edd;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
